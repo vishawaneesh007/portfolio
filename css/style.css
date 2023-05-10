@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+.et_heading{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    line-height: 55px;
+    margin-bottom: 45px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+a{
+    text-decoration: none;
+}
+.w-60{
+    max-width: 60%;
+}
+.my12{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.et_display1{
+    display: none;
+}
+
+/* navbar and banner css starts here */
+.et_banner{
+    background-image: url("/images/et_banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 30px;
+    position: relative;
+}
+.et_banner .navbar-brand{
+    font-size: 30px;
+    font-weight: 600;
+    color: #0d6efd;
+}
+.et_banner .nav-item{
+    margin-left: 30px;
+}
+.navbar-toggler-icon{
+    background-image: url("/images/icons/menu.png");
+}
+.navbar-toggler{
+    border: solid #0d6dfd1a;
+}
+.et_banner a.nav-link{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: black;
+}
+.et_banner a.nav-link.active{
+    color: #366ad8;
+}
+.et_banner a.nav-link:hover{
+    color: #366ad8;
+}
+.et_banner_content{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.et_banner_content .et_banner_heading{
+    font-size: 40px;
+    color: white;
+    text-transform: capitalize;
+    line-height: 55px;
+    margin-bottom: 45px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+.et_banner_content .form-control{
+    padding: 14px;
+}
+.et_social_media{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    right: 30px;
+    top: 50%;  
+    transform: translateY(-50%);  
+}
+.et_social_media li img{
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* navbar and banner css ends here */
+/* best seller section css starts here */
+.et_card img{
+    border-radius: 5px;
+}
+.et_duration{
+    font-size: 14px;
+}
+.et_price{
+    font-size: 16px;
+    color: #366ad8;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+.et_card_para{
+    font-size: 20px;
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    color: black;
+}
+.et_btn{
+
+    padding: 14px 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
+
+/* best seller section css ends here */
+/* value css starts here */
+.et_value{
+    background-color: #f7f7f7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 40px;
+}
+.et_heading3{
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+.et_para{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.473);
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.et_destination_width{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.et_country, .et_percent{
+    color: rgba(0, 0, 0, 0.329);
+    text-transform: capitalize;
+}
+.et_bar{
+    margin-top: 8px;
+    width: 100%;
+    height: 2px;
+    background-color: #e9e9e9;
+    position: relative;
+}
+.et_bar1::after{
+    content: "";
+    width: 75%;
+    height: 2px;
+    background-color: #366ad8;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.et_bar2::after{
+    content: "";
+    width: 33%;
+    height: 2px;
+    background-color: #366ad8;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.et_bar3::after{
+    content: "";
+    width: 88%;
+    height: 2px;
+    background-color: #366ad8;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.et_bar4::after{
+    content: "";
+    width: 75%;
+    height: 2px;
+    background-color: #366ad8;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.et_bar5::after{
+    content: "";
+    width: 50%;
+    height: 2px;
+    background-color: #366ad8;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.et_destination{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* value css ends here */
+/* advanatage css starts here */
+.et_advantage{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.et_advantage_card{
+    border: 2px solid #eef2f5;
+    padding-bottom: 30px;
+    padding-top: 90px;
+    border-radius: 5px;
+    position: relative;
+    
+}
+.et_advantage_card h5{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    columns: rgba(0, 0, 0, 0.568);
+
+}
+.et_advantage_image{
+    border-radius: 50%;
+    width: 100px;
+    border: 3px solid #eef2f5;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    background-color: white;
+}
+.et_advantage_card_container{
+    padding-top: 80px;
+}
+
+/* advanatage css ends here */
+/* book tour css starts here */
+.et_book_tour{
+    background-image: url("/images/fabrizio-conti-_6LZtmrss08-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.et_book_tour_heading{
+    text-transform: capitalize;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: 1.1px;
+}
+/* book tour css ends here */
+/* testimonials css starts here */
+.et_testimonial{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f7f7f7;
+}
+.et_testimonial_card{
+    background-image: url("/images/pexels-daffa-rayhan-zein-1056117.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    border-radius: 5px;
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.et_testimonial_card h5{
+    color: #366ad8;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+}
+.et_testimonial_card h6{
+    color: #ffffffb6;
+    text-transform: capitalize;
+}
+.et_testimonial_card p{
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 28px;
+}
+.et_avatar{
+    width: 70px;
+    border-radius: 50%;
+    border: 4px solid white;
+    position: absolute;
+    left: -35px;
+    top: 40px;
+}
+/* testimonials css ends here */
+/* client css starts here */
+.et_client{
+    background-image: url("/images/pexels-pixabay-355808.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.et_client_card{
+    color: white;
+}
+.et_client_card h4{
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.et_client_card h6{
+    text-transform: capitalize;
+    font-size: 22px;
+}
+
+/* client css ends here */
+/* blog css starts here */
+.et_blog{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.et_blog_card{
+    padding: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+.et_blog_card_img1{
+    background-image: url("/images/pexels-mads-thomsen-2739013.jpg");
+}
+.et_blog_card_img2{
+    background-image: url("/images/pexels-pixabay-315938.jpg");
+}
+.et_blog_detail span{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.726);
+    text-transform: capitalize;
+}
+.et_blog_detail h4{
+    margin-top: 10px;
+    font-size: 24px;
+    color: white;
+}
+.et_blog_card::before{
+    content: "NEWS";
+    background-color: #0d6efd;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    padding: 6px 15px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 0.5px;
+
+}
+/* blog css ends here */
+/* gallery css starts here */
+.et_gallery{
+    background-image: url("/images/pexels-joyston-judah-933054.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+.et_gallery_card h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.et_gallery_card h3{
+    font-size: 44px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    line-height: 59px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+}
+.et_gallery_card p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.753);
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+
+/* gallery css ends here */
+/* contact css starts here */
+.et_contact{
+    background-color: #f7f7f7;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.et_form .form-control{
+    border: none;
+    outline: none;
+    padding: 14px;
+}
+.et_contactby img{
+    width: 90px;
+}
+
+.et_contactby{
+    position: relative;
+}
+
+.et_contactby a{
+    font-size: 46px;
+    color: black;
+    position: absolute;
+    left: 25px;
+    top: 8px;
+}
+
+
+
+
+/* contact css ends here */
+/* footer css starts here */
+
+.footer{
+    background-color: #1f1f21;
+    position: relative;
+}
+.footer_tour h3{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    text-transform: capitalize;
+}
+.footer_tour p{
+    color: rgba(255, 255, 255, 0.664);
+    text-transform: capitalize;
+}
+.footer_heading{
+    font-size: 26px;
+    color: white;
+    text-transform: capitalize;
+}
+
+
+.footer_twitter_card {
+    padding-left: 50px;
+    position: relative;
+
+}
+.footer_twitter_card img{
+    position: absolute;
+    width: 30px;
+    top: 5px;
+    left: 5px;
+}
+
+.footer_twitter_card p{
+    color: #eef2f5;
+}
+
+.footer_twitter_card span{
+    font-size: 13px;
+    color: lightgray;
+}
+.footer_form{
+    position: relative;
+}
+.footer_last{
+    color: lightgray;
+}
+.footer_form .form-control{
+    padding: 14px;
+    height: 55px;
+    background-color: #404042;
+    border: none;
+    outline: none;
+}
+.footer_btn img{
+    width: 40px;
+}
+.footer_btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.footer_copyright{
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 12px;
+}
+.footer_up_arrow img{
+    width: 50px;
+    background-color: #0d6efd;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+/* footer css ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+/*for mobile */
+@media (max-width: 767px){
+    .et_advantage_card_container .col-sm-3{
+        margin-bottom: 60px;
+    }
+    .et_destination_width{
+        max-width: 100%;
+    }
+    .et_social_media li img{
+        width: 30px;
+    }
+    .et_display1{
+        display: block;
+    }
+    .et_display{
+        display: none;
+    }
+
+    .et_social_media{
+        right: 16px;
+        transform: translateY(-110%);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/*for mobile and tablet */
+@media (max-width: 768px){
+
+
+    .et_contactby a{
+        font-size: 25px;
+    }
+    .et_contactby img {
+        width: 60px;
+    }
+    .et_client_card h4 {
+        font-size: 50px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+
+/*for tablet*/
+@media (min-width: 768px) and (max-width: 768px) {
+    .et_testimonial_card h5{
+        text-align: right;
+    }
+    .et_testimonial_card h6{
+        text-align: right;
+    }
+    .et_testimonial_card{
+        padding: 20px;
+        margin-right: 0;
+        width: 92%;
+    }
+    .et_testimonial_card p{
+        margin-top: 30px;
+        line-height: 20px;
+    }
+    .et_avatar{
+        width: 60px;
+        left: -30px;
+        top: 20px;
+    }
+    .et_social_media li img{
+        width: 40px;
+    }
+  
+  }
